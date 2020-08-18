@@ -1,6 +1,6 @@
 # Data Science Football Project: Project Overview
 
-- Created a tool that predicts the final points total of a European football team (MAE ~ 2.9) based on input data  
+- Created a tool that predicts the final points total of a European football team (MAE ~ 4.2) based on input data  
 
 - Scraped data for football teams in Europe's top leagues from Undertstat.com using python and Beautiful Soup
 
@@ -76,15 +76,15 @@ The models were:
 All of the models performed relatively well and were able to predict the final points total of the football club within +- 3 points. 
 The Random Forest model was the best performing of the three models.
 
-- **Multiple Linear Regression:** MAE = 1.53
-- **Lasso Regression:** MAE = 1.68
-- **Random Forest:** MAE = 1.22
+- **Multiple Linear Regression:** MAE = 4.19
+- **Lasso Regression:** MAE = 4.23
+- **Random Forest:** MAE = 4.16
  
  ## Productionisation
  
  In this stage, I made a Flask API web server following along with the TDS Tutorial and Ken Jee Data Science Project Video in the reference section above. The API takes a list of input values and returns the estimated position of the football team in the league at the end of the season.
  
- Projected values can be input into the model throughout the season to predict the final position of the football team in the league. 
+ Projected values can be input into the model throughout the season to predict the final points total of the football team in the league. 
  
  
 
