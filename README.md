@@ -52,7 +52,7 @@ Used the web scraper github repo (above) to scrape statistics for football clubs
 
 ## EDA
 
-I did some exploratory data analysis to better understand the relationships between different variables and summarise the main characteristics of the data. Some highlights are below.
+I did some exploratory data analysis to better understand the relationships between different variables and summarise the main characteristics of the data. Some highlights are below. (The images can take some time to load. If they don't appear, see the images folder in the repo).
 
 ![](/Images/wins_profile_EDA.PNG)
 
