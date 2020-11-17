@@ -82,9 +82,8 @@ The Random Forest model was the best performing of the three models.
  
  ## Productionisation
  
- In this stage, I made a Flask API web server following along with the TDS Tutorial and Ken Jee Data Science Project Video in the reference section above. The API takes a list of input values and returns the estimated position of the football team in the league at the end of the season.
- 
- Projected values can be input into the model throughout the season to predict the final points total of the football team in the league. 
+ In this stage, I made a Flask API web server following along with the TDS Tutorial and Ken Jee Data Science Project Video in the reference section above. The API takes a list of input values and returns the predicted final points total of the football team. 
+
  
  
 
